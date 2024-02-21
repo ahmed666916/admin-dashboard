@@ -17,3 +17,19 @@
 .card p {
     margin-bottom: 10px;
 }
+
+.button-group {
+    display: flex;
+    float: right;
+  }
+  
+  .button-group button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-group button img {
+    width: 30px;
+    height: 30px;
+  }
