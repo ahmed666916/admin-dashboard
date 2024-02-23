@@ -1,5 +1,7 @@
 .container {
   display: grid;
+  grid-template-columns: 1fr 3fr;
+  
 }
 
 .navigation ul {
@@ -88,5 +90,7 @@
 }
 
 .sidebar {
-  border: 1px solid red;
+  background-color: lightblue;
+  
 }
+
