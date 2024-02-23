@@ -17,10 +17,20 @@
 
 }
 
-.announcements {
+.announcements{
+
+}
+
+.announcement {
   grid-column: 2;
   grid-row: 2;
+  border: 1px solid blue;
+  padding: 10px;
+  border-radius: 5px;
 
+}
+.announcement p {
+  white-space: pre-wrap;
 }
 
 .trending {
