@@ -5,6 +5,8 @@
     grid-template-rows: auto;
     gap: 10px;
     justify-items: center;
+    margin-left: 260px; /* Adjusted margin to create space for the sidebar */
+    padding: 20px; /* Add padding to the card-container */
 }
 
 .card {
@@ -92,12 +94,6 @@
 /* Additional gap between sections */
 .section-gap {
     margin-top: 40px;
-}
-
-/* Additional styles for the card-container to prevent overlap */
-.card-container {
-    margin-left: 260px; /* Adjusted margin to create space for the sidebar */
-    padding: 20px; /* Add padding to the card-container */
 }
 
   
