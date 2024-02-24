@@ -39,6 +39,66 @@
     height: 30px;
   }
 
+  .sidebar {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background-color: #1e90ff; /* Blue background color */
+    color: #fff; /* White font color */
+    left: 0;
+    top: 0;
+    padding-top: 80px; /* Adjusted padding for logo and title */
+    z-index: 100; /* Ensure the sidebar is above other content */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the logo */
+}
+
+.logo img {
+    width: 80px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.nav {
+    padding-left: 20px; /* Add some padding for the navigation items */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background color on hover */
+}
+
+.nav-item i {
+    margin-right: 10px;
+}
+
+/* Additional gap between sections */
+.section-gap {
+    margin-top: 40px;
+}
+
+/* Additional styles for the card-container to prevent overlap */
+.card-container {
+    margin-left: 260px; /* Adjusted margin to create space for the sidebar */
+    padding: 20px; /* Add padding to the card-container */
+}
 
   
   
