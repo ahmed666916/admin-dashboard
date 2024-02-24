@@ -1,50 +1,4 @@
-.container {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  
-}
 
-.column-two {
-  display: flex;
-}
-
-.navigation ul {
-    list-style: none;
-}
-.main {
-  display: grid;
-  grid-template-columns:2fr 1fr;
-  grid-template-rows: auto auto;
-  gap: 10px;
-}
-
-.projects {
-  grid-column:1 / span 2;
-  
-
-}
-
-.announcements{
-
-}
-
-.announcement {
-  grid-column: 2;
-  grid-row: 2;
-  border: 1px solid blue;
-  padding: 10px;
-  border-radius: 5px;
-
-}
-.announcement p {
-  white-space: pre-wrap;
-}
-
-.trending {
-  grid-column: 2;
-  grid-row: 1;
-
-}
 .card-container {
   border: 1px solid green;
     display: grid;
@@ -90,12 +44,4 @@
     float: right;
   }
 
-.header {
-  border: 1px solid black;
-}
-
-.sidebar {
-  background-color: lightblue;
-  
-}
 
