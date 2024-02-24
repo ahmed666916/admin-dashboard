@@ -49,25 +49,21 @@
     color: #fff; /* White font color */
     left: 0;
     top: 0;
-    padding-top: 80px; /* Adjusted padding for logo and title */
+    padding-top: 20px; /* Adjusted padding for logo and title */
     z-index: 100; /* Ensure the sidebar is above other content */
     overflow-y: auto; /* Enable vertical scrolling if needed */
-}
-
-.logo {
-    text-align: center;
-    margin-bottom: 20px; /* Add some space below the logo */
-}
-
-.logo img {
-    width: 40px; /* Adjust the width of the logo */
-    height: auto; /* Maintain aspect ratio */
 }
 
 .title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+.title img {
+  width: 30px; /* Adjust the width of the dashboard icon */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some space between icon and text */
 }
 
 .nav {
