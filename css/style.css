@@ -10,6 +10,7 @@
 }
 
 .card {
+    background-color: #fff;
     border: 2px solid #ddd;
     border-radius: 8px;
     padding: 10px;
@@ -93,6 +94,7 @@
 }
 .main {
     display: flex;
+    background-color: rgba(128, 128, 128, 0.985);
 }
 .announcements {
    
@@ -101,6 +103,7 @@
 }
 
 .announcement {
+    background-color: #fff;
     border: 1px solid blue;
     padding: 10px;
     border-radius: 5px;
@@ -110,6 +113,9 @@
     white-space: pre-wrap;
   }
   
+  .trending {
+    background-color: #fff;
+  }
 
   
   
