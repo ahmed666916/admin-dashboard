@@ -91,6 +91,25 @@
 .section-gap {
     margin-top: 40px;
 }
+.main {
+    display: flex;
+}
+.announcements {
+   
+    
+
+}
+
+.announcement {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+  
+  }
+  .announcement p {
+    white-space: pre-wrap;
+  }
+  
 
   
   
