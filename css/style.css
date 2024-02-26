@@ -1,4 +1,6 @@
-
+.container {
+ 
+}
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -117,6 +119,39 @@
   .trending {
     background-color: #fff;
   }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.search-container img {
+    width: 20px; /* Adjust the width of the search icon */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add some space between icon and input */
+}
+
+.search-container input[type="text"] {
+    width: 200px; /* Adjust the width of the input field */
+    padding: 5px; /* Add padding for better appearance */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    outline: none; /* Remove default input focus styling */
+}
+
+.search-container button {
+    background-color: #1e90ff; /* Blue background color for the search button */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add padding to the button */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.search-container button:hover {
+    background-color: #007bff; /* Darker blue color on hover */
+}
 
   
   
