@@ -104,9 +104,8 @@
 
 .announcement {
     background-color: #fff;
-    border: 1px solid blue;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 2px;
+    
   
   }
   .announcement p {
